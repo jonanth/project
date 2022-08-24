@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:'Roboto', sans-serif;;
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/descarga.jpg) ;
+    max-width: 100%;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 30px;
+}
+.navbar. menu{
+    grid-column: 6/9;
+    display: flex;
+    margin-top: 12px;
+}
+.navbar .brand{
+    color: #eb1b1b;
+}
+.menu .li{
+    list-style: lower-alpha;
+}
+.meu .li a{
+    text-decoration: none;
+    margin-right: 3em;
+    font-size: 1.3em;
+    color: rgb(207, 39, 39);
+    font-weight: 200;
+    padding: 10px 20px;
+}
+.menu li a:hover{
+    background-color: rgb(89, 175, 168);
+    transition: all .10;
+}
